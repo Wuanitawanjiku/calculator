@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
             else{
                 val a1 = etNumber1.text.toString().toInt()
                 val a2 = etNumber2.text.toString().toInt()
-                val a3 = a1 / a2
+                val a3 = a1 % a2
                 tvAnswer.text = " Answer: $a3"
             }
         }
